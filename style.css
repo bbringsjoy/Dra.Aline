@@ -4,6 +4,9 @@
     --hoovercolor: #ffffff;
     --green: #75cf75;
 }
+img{
+    max-width: 100%; 
+}
 header{
     
     .container-fluid{
@@ -56,7 +59,11 @@ header{
 footer{
     background-color: var(--maincolor) !important;
     text-align: center;
+    .redes-sociais{
+        text-decoration: none;
+    }
     a{
+        text-decoration: none;
         padding-top: 0;
         margin-top: 0;
         font-size: 30px;
