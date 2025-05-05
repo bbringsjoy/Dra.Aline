@@ -26,7 +26,9 @@ header{
         }
     }
 }
-
+.container{
+    align-items: center;
+}
 .endereco{
     .maps{
         align-items: center;
