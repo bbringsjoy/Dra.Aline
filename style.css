@@ -34,13 +34,13 @@ header{
     }
 }
 .container{
-    align-items: center;
+    justify-content: center;
 }
 .whats{
     font-size: 70px;
     text-align: right;
     color: var(--green);
-    z-index: 3;
+    z-index: 3; 
     
 }
 .endereco{
@@ -83,5 +83,28 @@ footer{
         &:hover{
             color: var(--hoovercolor) !important;
         }
+    }
+}
+
+@media (max-width: 950px){
+    .whats{
+        font-size: 50px;
+    }
+    main{
+        width: 100%;
+    }
+    .endereco{
+        width: 250px;
+    }
+}
+@media (min-width: 400px){
+    .whats{
+        font-size: 50px;
+    }
+    .endereco{
+        width: 100%;
+    }
+    .maps{
+        width: 100%;
     }
 }
