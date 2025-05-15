@@ -39,6 +39,7 @@ header{
     .contatos{
         text-align: center;
             font-size: 20px;
+            text-decoration: none;
     }
     img{
         border-radius: 10px;
