@@ -17,6 +17,7 @@ header{
         text-align: right;
     }
     .nav-item{
+        margin-left: 30px;
         a{
             color: var(--secondcolor) !important;
 
