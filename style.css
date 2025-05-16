@@ -8,6 +8,8 @@ img{
     max-width: 100%; 
 }
 header{
+    position: fixed;
+    width: 100%;
     
     .container-fluid{
         background: var(--maincolor) !important;
@@ -27,6 +29,7 @@ header{
     }
     }
     .navbar-brand{
+        margin-left: 30px;
 
         img{
             width: 50px;
@@ -34,6 +37,8 @@ header{
         }
     }
 }
+
+
 .container{
     justify-content: center;
     text-decoration: none;
@@ -54,7 +59,7 @@ header{
     text-align: right;
     color: var(--green);
     z-index: 3; 
-    
+    position: fixed;
 }
 .endereco{
     text-align: center;
@@ -121,6 +126,11 @@ footer{
     }
 }
 @media (min-width: 400px){
+    header{
+        .navbar-brand{
+            margin-left: 10px;
+        }
+    }
     .whats{
         font-size: 50px;
     }
