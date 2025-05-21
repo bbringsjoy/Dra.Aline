@@ -1,8 +1,11 @@
 :root{
     --maincolor: #e6b9e7;
     --secondcolor: #9c52a3;
+    --pcolor:#511663;
     --hoovercolor: #ffffff;
-    --green: #75cf75;
+    --green: #59b659;
+    --green2: #b1eca9;
+    --white: #ffffff;
 }
 img{
     max-width: 100%; 
@@ -42,14 +45,25 @@ header{
 
 .container{
     justify-content: center;
-    text-decoration: none;
     .contatos{
             text-align: center;
-            font-size: 20px;
             background-color: var(--secondcolor);
-            color: var(--maincolor);
-    }
+            border-radius: 100px;
+            box-shadow: var(--secondcolor) 0px 0px 0x;
 
+    }
+    p{
+        color: var(--pcolor);
+    }
+    a{
+        font-size: 20px;
+        margin: 5px;
+        padding: 1px;
+        
+       
+        color: var(--maincolor);
+        text-decoration: none;
+    }
     
     img{
         border-radius: 10px;
@@ -57,10 +71,18 @@ header{
 }
 .whats{
     font-size: 70px;
-    text-align: right;
-    color: var(--green);
     z-index: 3; 
     position: fixed;
+    a{
+        background-color: var(--green);
+        color: var(--white);
+        text-align: right;
+        border-radius: 400px;
+        margin-left: 10px;
+        padding: 2px;
+        padding-top: 0;
+    }
+    
 }
 .endereco{
     text-align: center;
