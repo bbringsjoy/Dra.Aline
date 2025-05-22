@@ -21,7 +21,6 @@ img{
     max-width: 100%; 
 }
 header{
-    position: fixed;
     width: 100%;
     .container-fluid{
         background: var(--maincolor) !important;
@@ -85,15 +84,17 @@ header{
     font-size: 70px;
     z-index: 3; 
     position: fixed;
+    right: 20px;
     a{
         background-color: var(--green);
         color: var(--white);
         text-align: right;
         border-radius: 400px;
         margin-left: 10px;
-        padding: 2px;
-        padding-top: 0;
-        padding-bottom: 0;
+        padding: 8px;
+        padding-right: 10px;
+        padding-left: 10px;
+        
     }
     
 }
@@ -144,6 +145,7 @@ footer{
     .whats{
         font-size: 70px;
         text-align: center;
+        bottom: 130px;
     }
     main{
         width: 100%;
