@@ -59,6 +59,9 @@ header{
             box-shadow: var(--secondcolor) 0px 0px 0x;
 
     }
+    h1{
+        color: var(--pcolor);
+    }
     p{
         color: var(--pcolor);
     }
