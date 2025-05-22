@@ -7,14 +7,15 @@
     --green2: #b1eca9;
     --white: #ffffff;
 }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 img{
     max-width: 100%; 
 }
 header{
-    position: fixed;
-    width: 100%;
-    box-sizing: border-box;
-    
     .container-fluid{
         background: var(--maincolor) !important;
         
@@ -63,6 +64,10 @@ header{
        
         color: var(--maincolor);
         text-decoration: none;
+
+        &:hover{
+            color: var(--hoovercolor) !important;
+        }
     }
     
     img{
@@ -81,6 +86,7 @@ header{
         margin-left: 10px;
         padding: 2px;
         padding-top: 0;
+        padding-bottom: 0;
     }
     
 }
