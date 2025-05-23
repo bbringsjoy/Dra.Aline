@@ -21,10 +21,16 @@ img{
     max-width: 100%; 
 }
 header{
+    z-index: 99;
+    position: fixed;
     width: 100%;
     .container-fluid{
         background: var(--maincolor) !important;
         
+    }
+    .navbar{
+        padding: 0;
+        margin-bottom: 1%;
     }
     .listas{
         text-align: right;
@@ -52,6 +58,7 @@ header{
 
 .container{
     justify-content: center;
+    padding-top: 80px;
     .contatos{
             text-align: center;
             background-color: var(--secondcolor);
@@ -97,9 +104,19 @@ header{
         padding: 8px;
         padding-right: 10px;
         padding-left: 10px;
+        display: flex; /* Para centralizar o ícone dentro do círculo */
+        align-items: center;
+        justify-content: center;
+        width: 70px; /* Ajustar conforme o font-size para fazer um círculo */
+        height: 70px;
+        text-decoration: none;
         
     }
     
+}
+.sobre {
+    padding-top: 50px; 
+    padding-bottom: 50px;
 }
 .endereco{
     text-align: center;
@@ -117,6 +134,7 @@ header{
 footer{
     background-color: var(--maincolor) !important;
     text-align: center;
+    padding-bottom: 10px;
     .redes-sociais{
         text-decoration: none;
         font-size: 30px
@@ -124,6 +142,7 @@ footer{
     .desenvolvedor{
         p{
             font-size: 13px;
+            margin-bottom: 0;
         }
         a{
             text-decoration: underline;
@@ -172,6 +191,7 @@ footer{
             margin-left: 10px;
         }
     }
+    
     .whats{
         font-size: 50px;
     }
