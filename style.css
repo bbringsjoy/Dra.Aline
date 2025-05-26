@@ -7,6 +7,8 @@
     --maincolor: #e6b9e7;
     --secondcolor: #9c52a3;
     --pcolor:#511663;
+    --p2color:#3a1d42;
+    --backgroundcolor: #fbcbff;
     --hoovercolor: #ffffff;
     --green: #59b659;
     --green2: #b1eca9;
@@ -117,7 +119,38 @@ header{
 .sobre {
     padding-top: 50px; 
     padding-bottom: 50px;
+    background-color: var(--backgroundcolor);
+    margin-top: 90px;
+    color: var(--p2color) !important;
+    a{
+        text-align: center;
+        border-radius: 400px;
+        margin-left: 10px;
+        padding: 8px;
+        padding-right: 10px;
+        padding-left: 10px;
+        display: flex; /* Para centralizar o ícone dentro do círculo */
+        align-items: center;
+        justify-content: center;
+        width: 70px; /* Ajustar conforme o font-size para fazer um círculo */
+        height: 70px;
+        text-decoration: none;
+    }
+    .sobre-texto{
+        padding: 17px;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    .sobre-consulta{
+        background-color: var(--secondcolor);
+        color: var(--white);
+        border-radius: 100px;
+        margin-left: 400px;
+        margin-right: 400px;
+        margin-top: 40px;
+    }
 }
+
 .endereco{
     text-align: center;
     margin-top: 25px;
