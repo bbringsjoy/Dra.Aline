@@ -145,19 +145,34 @@ header{
         padding-left: 100px;
         padding-right: 100px;
     }
-    .sobre-consulta{
+    .sobre-consulta {
         background-color: var(--secondcolor);
         color: var(--white);
         border-radius: 100px;
-        margin-left: 400px;
-        margin-right: 400px;
-        margin-top: 40px;
+        padding: 20px;
+        max-width: 90%;
+        margin: auto;
     }
+    
 }
 .clareamento{
     img{
         width: 15%;
     }
+    .flex {
+        display: flex;
+        flex-wrap: wrap; /* Permite que as imagens se ajustem em telas menores */
+        justify-content: center; /* Centraliza as imagens */
+        gap: 15px; /* Espaçamento entre imagens */
+        
+    }
+    .flex-coluna img {
+        width: 200px; /* Ajuste conforme necessário */
+        height: auto; /* Mantém a proporção correta */
+        border-radius: 10px; /* Bordas arredondadas para um design mais suave */
+        
+    }
+        
 }
 
 .endereco{
@@ -170,7 +185,13 @@ header{
     .maps{
         box-shadow: 0px 0px 10px var(--secondcolor);
     }
-    
+    button{
+        color: var(--pcolor) !important;
+        background-color: var(--maincolor) !important;
+        border-radius: 10px;
+        padding: 5px 10px;
+        border: solid 1px var(--secondcolor);
+    }
 }
 
 footer{
@@ -236,14 +257,13 @@ footer{
     padding-left: 0px;
     padding-right: 0px;
 }
-.sobre-consulta{
-    background-color: var(--secondcolor);
-    color: var(--white);
-    border-radius: 100px;
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-top: 40px;
-}
+
+.flex {
+        flex-direction: column; /* Coloca as imagens em coluna em telas menores */
+        align-items: center; /* Centraliza os itens */
+    }
+
+
 @media (min-width: 400px){
     header{
         .navbar-brand{
@@ -255,14 +275,7 @@ footer{
         font-size: 50px;
         margin-right: 16px;
     }
-    .sobre-consulta{
-        background-color: var(--secondcolor);
-        color: var(--white);
-        border-radius: 100px;
-        margin-left: 0px;
-        margin-right: 0px;
-        margin-top: 40px;
-    }
+   
     .sobre-texto{
         padding: 17px;
         padding-left: 0px;
