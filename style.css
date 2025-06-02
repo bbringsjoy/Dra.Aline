@@ -60,7 +60,7 @@ header{
 
 .container{
     width: 80%;
-    
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -154,6 +154,11 @@ header{
         margin-top: 40px;
     }
 }
+.clareamento{
+    img{
+        width: 15%;
+    }
+}
 
 .endereco{
     text-align: center;
@@ -205,6 +210,7 @@ footer{
         font-size: 70px;
         text-align: center;
         bottom: 130px;
+        margin-right: 16px;
     }
     main{
         width: 100%;
@@ -219,8 +225,24 @@ footer{
 
     }
     .endereco{
-        width: 250px;
+        width: 100%;
     }
+    .maps{
+        width: 100%;
+    }
+}
+.sobre-texto{
+    padding: 17px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.sobre-consulta{
+    background-color: var(--secondcolor);
+    color: var(--white);
+    border-radius: 100px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 40px;
 }
 @media (min-width: 400px){
     header{
@@ -231,6 +253,20 @@ footer{
     
     .whats{
         font-size: 50px;
+        margin-right: 16px;
+    }
+    .sobre-consulta{
+        background-color: var(--secondcolor);
+        color: var(--white);
+        border-radius: 100px;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 40px;
+    }
+    .sobre-texto{
+        padding: 17px;
+        padding-left: 0px;
+        padding-right: 0px;
     }
     .endereco{
         width: 100%;
