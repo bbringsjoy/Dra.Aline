@@ -33,11 +33,7 @@
             </div>
             </div>
         </section>
-        <div class="whats">
-          <a href= "https://wa.link/cn062u">
-            <i class="fa-brands fa-whatsapp"></i>
-        </a>
-      </div>
+        
       <div data-aos="fade-up" data-aos-anchor-placement="top-bottom">
       <section class="sobre" id="sobre">
         <h3 class="text-center">Sobre</h3>
