@@ -12,7 +12,7 @@
   
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"><!-- animação git -->
 
-
+    <script id="pixel-chaty" async="true" src="https://cdn.chaty.app/pixel.js?id=rPhJlkBB"></script> <!-- chatty chat/ whats -->
 
 </head>
 <body>
