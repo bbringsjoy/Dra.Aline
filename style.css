@@ -90,6 +90,9 @@ header{
         &:hover{
             color: var(--hoovercolor) !important;
         }
+    .contatos{
+        max-width: 30%;
+    }
     }
     
     img{
