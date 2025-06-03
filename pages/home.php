@@ -6,7 +6,7 @@
               <img src="imagens/Aline-1.jpg" alt="Foto Dr.Aline" class="img-fluid">
             </div>
             <div class="col">
-              <h1> Aline </h1>
+              <h1> Você precisa de dentista? </h1>
               <br>
               <p>
                 A Dra. Aline Gonçalves possui um atendimento humanizado na Odontologia tanto 
