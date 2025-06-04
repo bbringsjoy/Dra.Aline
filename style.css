@@ -102,9 +102,10 @@ header{
 }
 .whats{
     font-size: 70px;
-    z-index: 3; 
+    z-index: 99; 
     position: fixed;
     right: 20px;
+    bottom: 10px;
     a{
         background-color: var(--green);
         color: var(--white);
