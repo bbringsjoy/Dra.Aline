@@ -11,7 +11,7 @@
     <title> Dr.Aline Gonçalves </title>
   
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"><!-- animação git -->
-
+    
     
 </head>
 <body>
@@ -33,7 +33,7 @@
                       <i class="fa-solid fa-house"></i> Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#sobre">
+                    <a class="nav-link active" aria-current="page" href="sobre">
                       <i class="fa-solid fa-user-doctor"></i> Sobre</a>
                   </li>
                   <li class="nav-item">
@@ -53,6 +53,10 @@
     </header>
     <main class="container">
     <?php
+
+    //inserir o array 
+    include "pages/array.php";
+
     $pagina = $_GET["param"] ?? "home";
 
     // $pagina = página que quer abrir
@@ -67,11 +71,11 @@
       include "pages/erro.php";
     }
       ?>
-      <div class="whats">
+      <!--<div class="whats">
           <a href= "https://wa.link/cn062u">
             <i class="fa-brands fa-whatsapp"></i>
         </a>
-      </div>
+      </div> -->
     </main>
     <footer>
         </p>
@@ -110,7 +114,9 @@
 <!-- script lightbox -->
  <script src="https://cdn.jsdelivr.net/npm/fslightbox/index.js" type="module"></script>
 
- <script id="pixel-chaty" async="true" src="https://cdn.chaty.app/pixel.js?id=rPhJlkBB"></script> <!-- chatty chat/ whats -->
+ <!-- chatty chat/ whats -->
+ <script id="pixel-chaty" async="true" src="https://cdn.chaty.app/pixel.js?id=rPhJlkBB"></script> 
+ 
 
 
 </body>
