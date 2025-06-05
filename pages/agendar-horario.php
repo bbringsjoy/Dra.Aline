@@ -1,66 +1,50 @@
-
+<main>
+  <br>
+  <br> 
+  <!-- espaço pro header n ficar em cima -->
+  <section class="formulario">
     <h2 class="text-center">Agendar horário</h2>
-    <form class="row g-3 needs-validation" novalidate>
-  <div class="col-md-4">
-    <label for="validationCustom01" class="form-label">First name</label>
-    <input type="text" class="form-control" id="validationCustom01" value="Mark" required>
-    <div class="valid-feedback">
-      Looks good!
-    </div>
+    <div class="input-group mb-3">
+    <div class="row g-3">
+  <div class="col">
+    <label>Nome:</label>
+    <input type="text" class="form-control" placeholder="Nome" aria-label="Nome">
   </div>
-  <div class="col-md-4">
-    <label for="validationCustom02" class="form-label">Last name</label>
-    <input type="text" class="form-control" id="validationCustom02" value="Otto" required>
-    <div class="valid-feedback">
-      Looks good!
-    </div>
+  <div class="col">
+  <label>Sobrenome:</label>
+    <input type="text" class="form-control" placeholder="Sobrenome" aria-label="Sobrenome">
   </div>
-  <div class="col-md-4">
-    <label for="validationCustomUsername" class="form-label">Username</label>
-    <div class="input-group has-validation">
-      <span class="input-group-text" id="inputGroupPrepend">@</span>
-      <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
-      <div class="invalid-feedback">
-        Please choose a username.
-      </div>
-    </div>
-  </div>
-  <div class="col-md-6">
-    <label for="validationCustom03" class="form-label">City</label>
-    <input type="text" class="form-control" id="validationCustom03" required>
-    <div class="invalid-feedback">
-      Please provide a valid city.
-    </div>
-  </div>
-  <div class="col-md-3">
-    <label for="validationCustom04" class="form-label">State</label>
-    <select class="form-select" id="validationCustom04" required>
-      <option selected disabled value="">Choose...</option>
-      <option>...</option>
-    </select>
-    <div class="invalid-feedback">
-      Please select a valid state.
-    </div>
-  </div>
-  <div class="col-md-3">
-    <label for="validationCustom05" class="form-label">Zip</label>
-    <input type="text" class="form-control" id="validationCustom05" required>
-    <div class="invalid-feedback">
-      Please provide a valid zip.
-    </div>
-  </div>
-  <div class="col-12">
-    <div class="form-check">
-      <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
-      <label class="form-check-label" for="invalidCheck">
-        Agree to terms and conditions
-      </label>
-      <div class="invalid-feedback">
-        You must agree before submitting.
-      </div>
-    </div>
-  </div>
-  <div class="col-12">
-    <button class="btn btn-primary" type="submit">Submit form</button>
-  </div>
-</form>
+</div>
+</div><!-- inpult gruoup -->
+    <div class="input-group mb-3">
+    <select class="form-select" aria-label="Default select example">
+      <label>Você é o paciente ou o responsável?</label>
+  <option selected>Clique para selecionar as opções</option>
+  <option value="Paciente">Paciente</option>
+  <option value="Responsável">Responsável pelo paciente</option>
+</select>
+</div><!-- inpult gruoup -->
+<div class="input-group mb-3">
+    <div class="mb-3">
+  <label for="exampleFormControlInput1" class="form-label">Email</label>
+  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nome@exemplo.com">
+</div>
+</div><!-- inpult gruoup -->
+<div class="input-group mb-3">
+<div class="mb-3">
+  <label for="exampleFormControlTextarea1" class="form-label">Mensagem:</label>
+  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+</div>
+</div> <!-- inpult gruoup -->
+<input type="checkbox" class="btn-check" id="btn-check-outlined" autocomplete="off">
+<div class="form-check">
+
+  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+  <label class="form-check-label" for="defaultCheck1">
+    Confirmar informações
+  </label>
+</div>
+<label class="btn btn-outline-primary" for="btn-check-outlined">Enviar</label><br>
+</section>
+<br>
+</main>
