@@ -37,7 +37,7 @@
                       <i class="fa-solid fa-user-doctor"></i> Sobre</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#endereco">
+                    <a class="nav-link active" aria-current="page" href="localizacao">
                       <i class="fa-solid fa-location-dot"></i> Onde?</a>
                   </li>
                   <li class="nav-item">

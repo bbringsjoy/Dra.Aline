@@ -58,6 +58,7 @@ header{
 }
 .formulario{
     padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .container{
@@ -260,11 +261,11 @@ footer{
         width: 100%;
     }
 }
-.sobre-texto{
+/*.sobre-texto{
     padding: 17px;
     padding-left: 0px;
     padding-right: 0px;
-}
+}*/
 
 .flex {
         flex-direction: column; /* Coloca as imagens em coluna em telas menores */

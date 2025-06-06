@@ -39,17 +39,17 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 ?>
 <main>
   <section class="formulario">
-    <h2 class="text-center">Agendar horário</h2>
+    <h1 class="text-center">Agendar horário</h1>
 <form class="row g-3 needs-validation" novalidate>
-  <div class="col-md-4">
-    <label for="validationCustom01" class="form-label">Nome</label>
+  <div class="col-md-6">
+    <label for="validationCustom01" class="form-label">Nome:</label>
     <input type="text" class="form-control" id="validationCustom01" value="" required>
     <div class="invalid-feedback">
         Por favor, digite o seu nome.
       </div>
   </div>
-  <div class="col-md-4">
-    <label for="validationCustom02" class="form-label">Sobrenome</label>
+  <div class="col-md-6">
+    <label for="validationCustom02" class="form-label">Sobrenome:</label>
     <input type="text" class="form-control" id="validationCustom02" value="" required>
     <div class="invalid-feedback">
         Por favor, digite o seu sobrenome.
@@ -63,6 +63,22 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
       Digite um email válido.
     </div>
   </div>
+  <div class="col-md-4">
+  <label for="telefone" class="form-label">Telefone (WhatsApp):</label>
+  <input type="text" class="form-control" id="telefone" name="telefone" placeholder="(44) 91234-5678" required>
+  <div class="invalid-feedback">
+    Digite um número de telefone válido.
+  </div>
+</div>
+<!-- script para mascara do telefone -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+
+<script>
+  $(document).ready(function(){
+    $('#telefone').mask('(00) 00000-0000');
+  });
+</script>
   <div class="col-md-4">
     <label for="validationCustom04" class="form-label">Você é o paciente ou o responsável?</label>
     <select class="form-select" id="validationCustom04" required>
@@ -82,7 +98,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
       Digite a sua mensagem.
     </div>
   </div>
-  <div class="col-12">
+  <div class="col-md-12">
     <div class="form-check">
       <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
       <label class="form-check-label" for="invalidCheck">
@@ -94,7 +110,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     </div>
   </div>
   <div class="col-12">
-    <button class="btn btn-outline-primary" type="submit">Enviar</button>
+    <button class="btn btn-outline-primary" type="submit">Enviar <i class="fa-regular fa-paper-plane"></i></button>
   </div>
 </form>
 
