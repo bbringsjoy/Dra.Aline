@@ -131,7 +131,7 @@ header{
 .sobre {
     padding-top: 50px; 
     padding-bottom: 50px;
-    background-color: var(--backgroundcolor);
+   /* background-color: var(--backgroundcolor); */
     margin-top: 90px;
     color: var(--p2color) !important;
     a{
@@ -147,11 +147,6 @@ header{
         width: 70px; /* Ajustar conforme o font-size para fazer um círculo */
         height: 70px;
         text-decoration: none;
-    }
-    .sobre-texto{
-        padding: 17px;
-        padding-left: 100px;
-        padding-right: 100px;
     }
     .sobre-consulta {
         background-color: var(--secondcolor);
@@ -182,6 +177,7 @@ header{
     }
         
 }
+
 
 .endereco{
     text-align: center;

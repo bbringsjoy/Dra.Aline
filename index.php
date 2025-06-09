@@ -89,10 +89,14 @@
         </a>
       </div>
       <div class="desenvolvedor">
-      <p> Desenvolvido por:
+      <p class="user-select-none"> Desenvolvido por:
       <a href="https://www.linkedin.com/in/beatriz-gomes-santana-0197b5289?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
         Beatriz Gomes Santana
       </a>
+
+      <a href="meuformulario">
+      <i class="fa-regular fa-comment"></i>
+  </a>
     </p>
   </div>
      

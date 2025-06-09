@@ -38,8 +38,9 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 }
 ?>
 <main>
+<div data-aos="fade-up" data-aos-anchor-placement="top-bottom">
   <section class="formulario">
-    <h1 class="text-center">Agendar horário</h1>
+    <h1 class="text-center user-select-none">Agendar horário</h1>
 <form class="row g-3 needs-validation" novalidate>
   <div class="col-md-6">
     <label for="validationCustom01" class="form-label">Nome:</label>
@@ -137,4 +138,5 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 </script>
 
 </section>
+</div>
 </main>
