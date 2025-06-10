@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    
     <link rel="stylesheet" href="css/all.min.css"> <!-- Font Awesome -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
     <link href="imagens/logo2-removebg-preview.png" rel="shortcut icon">
@@ -12,7 +12,7 @@
   
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"><!-- animação git -->
     
-    
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
@@ -67,7 +67,10 @@
 
     if(file_exists($pagina)) {
       include $pagina;
-    } else {
+    } else if($pagina ==  "array"){
+      include "pages/erro.php";
+
+    }else {
       include "pages/erro.php";
     }
       ?>

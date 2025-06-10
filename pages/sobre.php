@@ -15,7 +15,7 @@
 <div class="col-12 col-md-7">
   <img src="imagens/Aline-2.jpg" alt="Foto Dra.Aline">
 </div>
-          <div class="col-12 col-md-5">
+          <div class="col-12 col-md-12">
           <p class="text-md-start">
             Na odontopediatria, os tratamentos têm como foco principal a prevenção da doença cárie, que se inicia desde bebês, passa pela primeira infância, adolescência e chega à fase adulta. Os tratamentos em destaque envolvem orientações de higiene, profilaxia (limpeza), aplicação de flúor, selantes e restaurações. O consultório oferece um ambiente lúdico e acolhedor, criado especialmente para encantar e tranquilizar as crianças.
 

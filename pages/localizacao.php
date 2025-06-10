@@ -14,13 +14,13 @@
 <div data-aos="fade-up" data-aos-anchor-placement="top-bottom">
 <div id="carouselExample" class="carousel slide">
   <div class="carousel-inner">
-    <div class="carousel-item active">
+    <div class="carousel-item active" data-fslightbox="galeria">
       <img src="imagens/clinica5.jpg" class="d-block w-100" alt="Foto da clínica">
     </div>
-    <div class="carousel-item">
+    <div class="carousel-item" data-fslightbox="galeria">
       <img src="imagens/clinica2.jpg" class="d-block w-100" alt="Foto da clínica">
     </div>
-    <div class="carousel-item">
+    <div class="carousel-item" data-fslightbox="galeria">
       <img src="imagens/clinica4.jpg" class="d-block w-100" alt="Foto da clínica">
     </div>
     <div class="carousel-item">

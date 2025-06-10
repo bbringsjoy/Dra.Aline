@@ -34,9 +34,47 @@
             </div>
             </div>
         </section>
+        <br>
         <section>
         <div data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-            <div class="row">
+            <div class="row row-cols-2">
+              <h3 class="text-start user-select-none">  Por que preciso clarear meus dentes?  </h3>
+              <div class="col-12">
+                <p class="text-md-start">
+                Com o passar dos anos, fisiologicamente pode ocorrer um amarelamento dos dentes devido ao desgaste da dentina (camada interna do dente) e outros fatores podem contribuir com essa condição, entre eles: 
+
+</p>
+<p class="text-md-start">
+                <ul>
+                    <li>Consumo excessivo de bebidas escuras, dentre elas o café; </li>
+                    <li>Tabagismo;</li>
+                    <li>Higiene bucal inadequada;</li>
+                </ul>
+                </p>
+<p class="text-md-start">
+O clareamento tem por objetivo restaurar a cor natural dos dentes, utilizando técnicas e agentes clareadores específicos.
+Esse procedimento pode ser realizado tanto no consultório odontológico quanto em casa, o importante é que sempre seja feito com supervisão do dentista. 
+
+</p>
+<h3 class="text-start user-select-none">  E quais são os tipos de clareamento?  </h3>
+<p class="text-md-start">
+CLAREAMENTO CASEIRO SUPERVISIONADO - o dentista entrega uma moldeira específica e individualizada para boca e um determinado gel clareador para o paciente. Além disso, repassa orientações para ser realizado de forma correta em casa. 
+</p>
+<p class="text-md-start">
+CLAREAMENTO DE CONSULTÓRIO - esse método como o próprio nome diz é realizado no consultório odontológico, e o dentista aplica um gel clareador com concentração maior do que o produto usado no procedimento caseiro.  
+</p>
+<p class="text-md-start">
+ASSOCIAÇÃO DOS DOIS MÉTODOS - que consiste em realizar os dois métodos (caseiro e consultório) em conjunto para garantir um melhor resultado. 
+</p>
+<p class="text-md-start">
+É importante relatar que seja qual for o tipo de clareamento escolhido, os efeitos não duram para sempre. E a indicação correta de qual método indicado é o dentista quem vai determinar. 
+</p>
+<br>
+<p class="text-md-start">
+Ficou com alguma dúvida? Tem vontade de clarear os seus dentes? Envie uma mensagem para a Dra. Aline!
+</p>
+</div>
+</div>
                 <?php
                 //print_r($clareamento);
                 foreach($clareamentos as $id => $valor) {
