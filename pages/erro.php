@@ -2,7 +2,7 @@
     <div class="row row-cols-2">
     <h1 class="text-center col-md-12 user-select-none">Erro 404</h1> 
     <br>
-    <div class="imagem col-md-3">
+    <div class="imagem col-md-3 d-flex justify-content-center">
     <img src="imagens/sad_teeth2-removebg-preview.png" alt="Erro" class="img-center w-100">
 </div>
     <div class="col-md-12 text-center user-select-none">

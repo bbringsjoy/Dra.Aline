@@ -35,13 +35,14 @@
             </div>
         </section>
         <br>
+        <br>
         <section>
         <div data-aos="fade-up" data-aos-anchor-placement="top-bottom">
             <div class="row row-cols-2">
               <h3 class="text-start user-select-none">  Por que preciso clarear meus dentes?  </h3>
               <div class="col-12">
-                <p class="text-md-start">
-                Com o passar dos anos, fisiologicamente pode ocorrer um amarelamento dos dentes devido ao desgaste da dentina (camada interna do dente) e outros fatores podem contribuir com essa condição, entre eles: 
+<p class="text-md-start col-12">
+Com o passar dos anos, fisiologicamente pode ocorrer um amarelamento dos dentes devido ao desgaste da dentina (camada interna do dente) e outros fatores podem contribuir com essa condição, entre eles: 
 
 </p>
 <p class="text-md-start">
@@ -56,6 +57,7 @@ O clareamento tem por objetivo restaurar a cor natural dos dentes, utilizando t�
 Esse procedimento pode ser realizado tanto no consultório odontológico quanto em casa, o importante é que sempre seja feito com supervisão do dentista. 
 
 </p>
+<br>
 <h3 class="text-start user-select-none">  E quais são os tipos de clareamento?  </h3>
 <p class="text-md-start">
 CLAREAMENTO CASEIRO SUPERVISIONADO - o dentista entrega uma moldeira específica e individualizada para boca e um determinado gel clareador para o paciente. Além disso, repassa orientações para ser realizado de forma correta em casa. 
@@ -75,16 +77,20 @@ Ficou com alguma dúvida? Tem vontade de clarear os seus dentes? Envie uma mensa
 </p>
 </div>
 </div>
-                <?php
-                //print_r($clareamento);
-                foreach($clareamentos as $id => $valor) {
-                    echo "<div class='col-12 col-md-3'>
-                    <div class='card' data-fslightbox='galeria'>
-                        <img src='{$valor['foto']}' class='w-100'>
-                    </div>
-                    </div>";
-                }
-                ?>
+<?php
+foreach($clareamentos as $id => $valor) {
+    echo "<section class='clareamento'>
+    <div class='col-12'>
+            <div class='col-md-4'>
+              <a href='{$valor['foto']}' data-fslightbox='galeria'>
+                <img src='{$valor['foto']}' class='card-img-top w-100' alt='Clareamento {$id}'>
+              </a>
+            </div>
+          </div>
+          </section>";
+}
+?>
+
 </div>
               </div>
 </section>

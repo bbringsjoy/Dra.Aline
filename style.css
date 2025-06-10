@@ -86,6 +86,10 @@ header{
     }
 
 }
+.localizacao{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
 .formulario{
     padding-top: 60px;
     padding-bottom: 60px;
@@ -184,14 +188,14 @@ header{
         height: 70px;
         text-decoration: none;
     }
-    .sobre-consulta {
+    /*.sobre-consulta {
         background-color: var(--secondcolor);
         color: var(--white);
         border-radius: 100px;
         padding: 10px;
         max-width: 35%;
         margin: auto;
-    }
+    }*/
     
 }
 .clareamento{

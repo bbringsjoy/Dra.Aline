@@ -22,6 +22,9 @@
               <a class="navbar-brand" href="home">
                 <img src="imagens/logo2-removebg-preview.png" alt="Logo" class="w-100">
               </a>
+              <a class="navbar-brand" href="home">
+                <img src="imagens/texto-removebg-preview.png" alt="Dra.Aline" class="w-100">
+              </a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -96,10 +99,6 @@
       <a href="https://www.linkedin.com/in/beatriz-gomes-santana-0197b5289?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
         Beatriz Gomes Santana
       </a>
-
-      <a href="meuformulario">
-      <i class="fa-regular fa-comment"></i>
-  </a>
     </p>
   </div>
      
