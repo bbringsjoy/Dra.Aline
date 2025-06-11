@@ -2,15 +2,16 @@
 
        
 <div data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+  <div class=container>
 <section class="sobre">
 <h3 class="text-center user-select-none">Sobre</h3>
         <div class="clearfix">
-  <img src="imagens/Aline-2.jpg" class="col-md-6 float-md-end mb-3 ms-md-3" alt="...">
-
-  <p>
+        <p>
   A Dra. Aline Gonçalves é graduada em odontologia pela universidade Unicesumar, e especializada em odontopediatria na AMO - Associação Maringaense de Odontologia.
 
   </p>
+
+  <img src="imagens/Aline-2.jpg" class="col-md-6 float-md-end mb-3 ms-md-3" alt="...">
 
   <p>
   Os atendimentos oferecidos no consultório são direcionados tanto para crianças quanto para adultos, sempre com foco em prevenção, cuidado e um ambiente acolhedor para todas as idades, respeitando as necessidades individuais de cada paciente.
@@ -28,9 +29,26 @@ Isso é especialmente importante para aqueles que sofrem de traumas relacionados
   <p>
   Agende uma consulta, e venha conferir o trabalho dela!
   </p>
+  <div class="container">
+  <p class="contatos">
+    <a href="agendar-horario">
+    <i class="fa-solid fa-calendar-days"></i>
+</a>
+<a href="https://www.instagram.com/alinegd28?igsh=MTduOHV2cG1qNXNocg==">
+                  <i class="fa-brands fa-instagram"></i>
+                  </i>
+                </a>
+                <a href="https://www.facebook.com/share/16SygXo4Q2/">
+                  <i class="fa-brands fa-facebook"></i>
+                  </a>
+                  <a href= "https://wa.link/cn062u">
+                    <i class="fa-brands fa-whatsapp"></i>
+                  </a>
+</div>
 </div>
 </div> 
 </section>
+</div>
 </div>
 
 </main>

@@ -76,7 +76,7 @@ ASSOCIAÇÃO DOS DOIS MÉTODOS - que consiste em realizar os dois métodos (case
 É importante relatar que seja qual for o tipo de clareamento escolhido, os efeitos não duram para sempre. E a indicação correta de qual método indicado é o dentista quem vai determinar. 
 </p>
 <br>
-<p class="text-md-start">
+<p class="importante text-md-start">
 Ficou com alguma dúvida? Tem vontade de clarear os seus dentes? Envie uma mensagem para a Dra. Aline!
 </p>
 </div>

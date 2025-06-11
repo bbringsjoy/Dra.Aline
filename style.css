@@ -74,6 +74,10 @@ header{
     justify-content: center;
     align-items: center;
 }
+.importante{
+    color: var(--pcolor);
+    background-color: var(--secondcolor);
+}
 .text-center .botao{
 
     color: var(--pcolor) !important;
@@ -99,6 +103,12 @@ header{
     border: solid 1px var(--hoovercolor); 
     box-shadow: 0px 0px 10px var(--secondcolor);
 }
+.erro{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding-bottom: 50px;
+}
 .container{
     width: 80%;
 
@@ -111,7 +121,11 @@ header{
             background-color: var(--secondcolor);
             border-radius: 100px;
             box-shadow: var(--secondcolor) 0px 0px 0x;
-
+            display: flex;
+            font-size: 40px;
+            p{
+                color: var(--white);
+            }
     }
     h1{
         color: var(--pcolor);
@@ -169,11 +183,18 @@ header{
     }
     
 }
+.zoom-hover {
+    transition: transform 0.3s ease;
+  }
+
+  .zoom-hover:hover {
+    transform: scale(1.1);
+  }
 .sobre {
-    padding-top: 50px; 
+    /*padding-top: 40px; */
     padding-bottom: 50px;
    /* background-color: var(--backgroundcolor); */
-    margin-top: 70px;
+   /* margin-top: 70px;*/
     color: var(--p2color) !important;
     img{
         margin: 5px;
