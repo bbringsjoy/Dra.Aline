@@ -23,7 +23,7 @@
                 <img src="imagens/logo2-removebg-preview.png" alt="Logo" class="w-100">
               </a>
               <a class="navbar-brand" href="home">
-                <img src="imagens/texto-removebg-preview.png" alt="Dra.Aline" class="w-100">
+                Dra.Aline
               </a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>

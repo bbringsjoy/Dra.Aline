@@ -39,8 +39,11 @@
         <section>
         <div data-aos="fade-up" data-aos-anchor-placement="top-bottom">
             <div class="row row-cols-2">
-              <h3 class="text-start user-select-none">  Por que preciso clarear meus dentes?  </h3>
+                 <br>
               <div class="col-12">
+              <h3 class="text-start user-select-none"> 
+              Por que preciso clarear meus dentes?  </h3>
+              <br>
 <p class="text-md-start col-12">
 Com o passar dos anos, fisiologicamente pode ocorrer um amarelamento dos dentes devido ao desgaste da dentina (camada interna do dente) e outros fatores podem contribuir com essa condição, entre eles: 
 
@@ -59,6 +62,7 @@ Esse procedimento pode ser realizado tanto no consultório odontológico quanto 
 </p>
 <br>
 <h3 class="text-start user-select-none">  E quais são os tipos de clareamento?  </h3>
+<br>
 <p class="text-md-start">
 CLAREAMENTO CASEIRO SUPERVISIONADO - o dentista entrega uma moldeira específica e individualizada para boca e um determinado gel clareador para o paciente. Além disso, repassa orientações para ser realizado de forma correta em casa. 
 </p>
@@ -77,19 +81,18 @@ Ficou com alguma dúvida? Tem vontade de clarear os seus dentes? Envie uma mensa
 </p>
 </div>
 </div>
+<div class='clareamento container'>
+  <!-- a div container tem q ser fora do looping para as imagens ficarem lado a lado -->
 <?php
 foreach($clareamentos as $id => $valor) {
-    echo "<section class='clareamento'>
-    <div class='col-12'>
-            <div class='col-md-4'>
+    echo "<div class='col-6 col-sm-3'>
               <a href='{$valor['foto']}' data-fslightbox='galeria'>
                 <img src='{$valor['foto']}' class='card-img-top w-100' alt='Clareamento {$id}'>
               </a>
-            </div>
-          </div>
-          </section>";
+            </div>";
 }
 ?>
+</div>
 
 </div>
               </div>
