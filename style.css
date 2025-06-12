@@ -57,6 +57,7 @@ header{
 
             &:hover{
                 color: var(--hoovercolor) !important;
+                font-size: 18px;
             }
     }
     }
@@ -100,17 +101,36 @@ header{
 }
 
 .clareamento img{
-    border: solid 1px var(--hoovercolor); 
-    box-shadow: 0px 0px 10px var(--secondcolor);
+    
+        border: solid 1px var(--hoovercolor); 
+        box-shadow: 0px 0px 10px var(--secondcolor);
+        margin: 0px;
+        padding: 1px;
+}
+.erro-main{
+    width: 100%;
+    padding-bottom: 180px;
 }
 .erro{
     display: flex;
     flex-direction: column;
     margin: auto;
     padding-bottom: 50px;
+    .imagem{
+        margin: auto;
+    }
+}
+.carousel-indicators [data-bs-target]{
+    margin-bottom: 10px;
 }
 .carousel {
     position: relative;
+    a{
+        font-size: 0;
+        &hover{
+            font-size: 0;
+        }
+    }
   }
   
   .carousel-indicators {
@@ -131,11 +151,11 @@ header{
             border-radius: 100px;
             box-shadow: var(--secondcolor) 0px 0px 0x;
             display: flex;
-            font-size: 40px;
             padding: auto;
             p{
                 color: var(--white);
                 width: 100%;
+                margin: auto;
             }
     }
     h1{
@@ -148,7 +168,7 @@ header{
         color: var(--pcolor);
     }
     a{
-        font-size: 20px;
+        font-size: 25px;
         margin: 5px;
         padding: 1px;
         
@@ -158,6 +178,7 @@ header{
 
         &:hover{
             color: var(--hoovercolor) !important;
+            
         }
     .contatos{
         max-width: 30%;
@@ -194,13 +215,6 @@ header{
     }
     
 }
-.zoom-hover {
-    transition: transform 0.3s ease;
-  }
-
-  .zoom-hover:hover {
-    transform: scale(1.1);
-  }
 .sobre {
     /*padding-top: 40px; */
     padding-bottom: 50px;

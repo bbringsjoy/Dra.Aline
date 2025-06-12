@@ -82,6 +82,7 @@ Ficou com alguma dúvida? Tem vontade de clarear os seus dentes? Envie uma mensa
 </div>
 </div>
 <div class='clareamento container'>
+  <div class="row">
   <!-- a div container tem q ser fora do looping para as imagens ficarem lado a lado -->
 <?php
 foreach($clareamentos as $id => $valor) {
@@ -92,6 +93,7 @@ foreach($clareamentos as $id => $valor) {
             </div>";
 }
 ?>
+</div>
 </div>
 <p class="text-center">
 Clique para ampliar as imagens.

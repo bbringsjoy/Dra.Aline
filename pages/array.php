@@ -5,6 +5,6 @@ $clareamentos = [
     ["nome" => "Clareamento 2", "foto" => "imagens/clareamento2.jpg"],
     ["nome" => "Clareamento 3", "foto" => "imagens/clareamento3.jpg"],
     ["nome" => "Clareamento 4", "foto" => "imagens/clareamento4.jpg"],
-    ["nome" => "Clareamento 5", "foto" => "imagens/clareamento5.jpg"],
+    
 ]
 ?>

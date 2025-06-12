@@ -5,7 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <link rel="stylesheet" href="css/all.min.css"> <!-- Font Awesome -->
+    
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+     <!-- chatty chat/ whats -->
+     <script id="pixel-chaty" async="true" src="https://cdn.chaty.app/pixel.js?id=rPhJlkBB"></script>
     <link href="imagens/logo2-removebg-preview.png" rel="shortcut icon">
 
     <title> Dr.Aline Gonçalves </title>
@@ -22,8 +25,8 @@
               <a class="navbar-brand" href="home">
                 <img src="imagens/logocomtexto3.png" alt="Logo" class="w-100">
               </a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+              <button class="navbar-toggler" type="botao button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar"><i class="fa-solid fa-bars"></i></span>
               </button>
               <div class= listas>
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -116,9 +119,6 @@
 
 <!-- script lightbox -->
  <script src="https://cdn.jsdelivr.net/npm/fslightbox/index.js" type="module"></script>
-
- <!-- chatty chat/ whats -->
- <script id="pixel-chaty" async="true" src="https://cdn.chaty.app/pixel.js?id=rPhJlkBB"></script> 
  
 
 

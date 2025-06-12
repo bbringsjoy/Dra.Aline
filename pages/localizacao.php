@@ -31,7 +31,7 @@
             <img src="imagens/clinica1.jpg" class="d-block w-100" alt="Imagens da clínica">
           </a>
           <div class="carousel-caption d-md-block">
-            <h5>Imagens do consultório</h5>
+            <h5 style="margin-bottom: 15px">Imagens do consultório</h5>
           </div>
         </div>
 

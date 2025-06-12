@@ -1,4 +1,4 @@
-<main>
+<main class= "erro-main">
 <div class="container">
     <div class="row">
     <h1 class="text-center col-md-12 user-select-none">Erro 404</h1> 
