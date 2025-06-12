@@ -11,7 +11,7 @@
 
   </p>
 
-  <img src="imagens/Aline-2.jpg" class="col-md-6 float-md-end mb-3 ms-md-3" alt="...">
+  <img src="imagens/Aline-4.jpg" class="col-md-6 float-md-end mb-3 ms-md-3" alt="Foto da Dra.Aline">
 
   <p>
   Os atendimentos oferecidos no consultório são direcionados tanto para crianças quanto para adultos, sempre com foco em prevenção, cuidado e um ambiente acolhedor para todas as idades, respeitando as necessidades individuais de cada paciente.

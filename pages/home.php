@@ -76,7 +76,7 @@ ASSOCIAÇÃO DOS DOIS MÉTODOS - que consiste em realizar os dois métodos (case
 É importante relatar que seja qual for o tipo de clareamento escolhido, os efeitos não duram para sempre. E a indicação correta de qual método indicado é o dentista quem vai determinar. 
 </p>
 <br>
-<p class="importante text-md-start">
+<p class="text-md-start">
 Ficou com alguma dúvida? Tem vontade de clarear os seus dentes? Envie uma mensagem para a Dra. Aline!
 </p>
 </div>
@@ -85,7 +85,7 @@ Ficou com alguma dúvida? Tem vontade de clarear os seus dentes? Envie uma mensa
   <!-- a div container tem q ser fora do looping para as imagens ficarem lado a lado -->
 <?php
 foreach($clareamentos as $id => $valor) {
-    echo "<div class='col-6 col-sm-3'>
+    echo "<div class='col-6 col-md-3'>
               <a href='{$valor['foto']}' data-fslightbox='galeria'>
                 <img src='{$valor['foto']}' class='card-img-top w-100' alt='Clareamento {$id}'>
               </a>
@@ -93,7 +93,10 @@ foreach($clareamentos as $id => $valor) {
 }
 ?>
 </div>
-
+<p class="text-center">
+Clique para ampliar as imagens.
+</p>
+<br>
 </div>
               </div>
 </section>
