@@ -76,8 +76,10 @@ header{
     align-items: center;
 }
 .importante{
+    border-radius: 10px;
+    padding: 20px;
     color: var(--pcolor);
-    background-color: var(--secondcolor);
+    background-color: var(--backgroundcolor);
 }
 .text-center .botao{
 
@@ -141,14 +143,14 @@ header{
     z-index: 2;
   }
   .contatos a{
+    width: 100%;
     font-size: 25px;
     margin: 5px;
     padding: 1px;
-    
-   
     color: var(--maincolor);
     text-decoration: none;
-
+    display: flex;
+            padding: auto;
     &:hover{
         color: var(--hoovercolor) !important;
         transform: scale(1.3)
@@ -168,6 +170,7 @@ header{
             box-shadow: var(--secondcolor) 0px 0px 0x;
             display: flex;
             padding: auto;
+
             p{
                 color: var(--white);
                 width: 100%;

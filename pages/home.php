@@ -16,8 +16,8 @@
               <p>
                 Venha conhecer o trabalho dela!
               </p>
-              <div class="contatos">
-              <p>
+              <div>
+              <p class="contatos">
                 <a href="https://www.instagram.com/alinegd28?igsh=MTduOHV2cG1qNXNocg==">
                   <i class="fa-brands fa-instagram"></i>
                   </i>
@@ -41,6 +41,7 @@
             <div class="row row-cols-2">
                  <br>
               <div class="col-12">
+              <div class="importante">
               <h3 class="text-start user-select-none"> 
               Por que preciso clarear meus dentes?  </h3>
               <br>
@@ -50,9 +51,9 @@ Com o passar dos anos, fisiologicamente pode ocorrer um amarelamento dos dentes 
 </p>
 <p class="text-md-start">
                 <ul>
-                    <li>Consumo excessivo de bebidas escuras, dentre elas o café; </li>
-                    <li>Tabagismo;</li>
-                    <li>Higiene bucal inadequada;</li>
+                    <p><i class="fa-solid fa-mug-saucer"></i>  -  Consumo excessivo de bebidas escuras, dentre elas o café;</p>
+                    <p><i class="fa-solid fa-smoking"></i>  -  Tabagismo;  </p>
+                    <p><i class="fa-solid fa-tooth"></i>  -  Higiene bucal inadequada; </p>
                 </ul>
                 </p>
 <p class="text-md-start">
@@ -60,6 +61,7 @@ O clareamento tem por objetivo restaurar a cor natural dos dentes, utilizando t�
 Esse procedimento pode ser realizado tanto no consultório odontológico quanto em casa, o importante é que sempre seja feito com supervisão do dentista. 
 
 </p>
+</div>
 <br>
 <h3 class="text-start user-select-none">  E quais são os tipos de clareamento?  </h3>
 <br>
