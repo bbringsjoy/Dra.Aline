@@ -33,9 +33,9 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $headers .= "Content-Type: text/plain; charset=UTF-8\r\n";
 
     if (mail($destino, $assunto, $corpo, $headers)) {
-      $mensagem_enviada = "✅ Mensagem enviada com sucesso!";
+      $mensagem_enviada = "Mensagem enviada com sucesso!";
     } else {
-      $mensagem_enviada = "❌ Erro ao enviar a mensagem. Tente novamente mais tarde.";
+      $mensagem_enviada = "Erro ao enviar a mensagem. Tente novamente mais tarde.";
     }
   }
 }

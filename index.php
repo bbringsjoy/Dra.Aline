@@ -6,15 +6,14 @@
     
     <link rel="stylesheet" href="css/all.min.css"> <!-- Font Awesome -->
     
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
-     <!-- chatty chat/ whats -->
-     <script id="pixel-chaty" async="true" src="https://cdn.chaty.app/pixel.js?id=rPhJlkBB"></script>
     <link href="imagens/logo2-removebg-preview.png" rel="shortcut icon">
 
     <title> Dr.Aline Gonçalves </title>
   
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"><!-- animação git -->
-    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+     <!-- chatty chat/ whats -->
+     <script id="pixel-chaty" async="true" src="https://cdn.chaty.app/pixel.js?id=rPhJlkBB"></script>
+     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"><!-- animação git -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -94,7 +93,11 @@
           <i class="fa-brands fa-facebook"></i>
         </a>
       </div>
-      <div class="desenvolvedor">
+  <div class="desenvolvedor">
+  <p class="user-select-none">
+      Todos os direitos reservados
+  </p>
+  <br>
       <p class="user-select-none"> Desenvolvido por:
       <a href="https://www.linkedin.com/in/beatriz-gomes-santana-0197b5289?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
         Beatriz Gomes Santana
