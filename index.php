@@ -95,7 +95,7 @@
       </div>
   <div class="desenvolvedor">
   <p class="user-select-none">
-      Todos os direitos reservados
+  © Todos os direitos reservados
   </p>
   <br>
       <p class="user-select-none"> Desenvolvido por:
