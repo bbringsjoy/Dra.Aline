@@ -57,7 +57,7 @@
     <?php
 
     //inserir o array 
-    include "pages/array.php";
+    include "array.php";
 
     $pagina = $_GET["param"] ?? "home";
 
