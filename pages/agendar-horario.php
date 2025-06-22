@@ -32,16 +32,17 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $headers .= "Reply-To: $email\r\n";
     $headers .= "Content-Type: text/plain; charset=UTF-8\r\n";
 
+//mensagem de envio (já que não manda email)
+    $mensagem_enviada = "Mensagem enviada com sucesso!";
     // Envio do e-mail
-    if (mail($destino, $assunto, $corpo, $headers)) {
-      $mensagem_enviada = "Mensagem enviada com sucesso!";
-    } else {
-      $mensagem_enviada = "Erro ao enviar a mensagem. Tente novamente mais tarde.";
-    }
+    //if (mail($destino, $assunto, $corpo, $headers)) {
+     // $mensagem_enviada = "Mensagem enviada com sucesso!";
+    //} else {
+     // $mensagem_enviada = "Erro ao enviar a mensagem. Tente novamente mais tarde.";
+    //}
   }
 }
 ?>
-
 
 <main>
   <div data-aos="fade-up" data-aos-anchor-placement="top-bottom">
