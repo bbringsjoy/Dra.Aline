@@ -10,13 +10,13 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
   $tipo_pessoa = htmlspecialchars(trim($_POST['tipo_pessoa']));
   $mensagem = htmlspecialchars(trim($_POST['mensagem']));
 
-  // Verificação de campos obrigatórios
+  // Verificação de campos obrigatórios e e-mail válido
   if (
     empty($nome) || empty($sobrenome) || empty($telefone) ||
     empty($tipo_pessoa) || empty($mensagem) ||
     !filter_var($email, FILTER_VALIDATE_EMAIL)
   ) {
-    $mensagem_enviada = "Mensagem enviada com sucesso!";
+    $mensagem_enviada = "Por favor, preencha todos os campos corretamente.";
   } else {
     $destino = "aline12334@hotmail.com";
     $assunto = "Nova mensagem do site";
@@ -32,6 +32,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $headers .= "Reply-To: $email\r\n";
     $headers .= "Content-Type: text/plain; charset=UTF-8\r\n";
 
+    // Envio do e-mail
     if (mail($destino, $assunto, $corpo, $headers)) {
       $mensagem_enviada = "Mensagem enviada com sucesso!";
     } else {
@@ -40,6 +41,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
   }
 }
 ?>
+
 
 <main>
   <div data-aos="fade-up" data-aos-anchor-placement="top-bottom">

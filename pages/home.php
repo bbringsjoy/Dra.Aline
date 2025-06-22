@@ -17,8 +17,12 @@
                 Venha conhecer o trabalho dela!
               </p>
               <div>
-              <p class="contatos">
-                <a href="https://www.instagram.com/alinegd28?igsh=MTduOHV2cG1qNXNocg==">
+              <!-- <div class="container">-->
+ 
+  <p class="contatos">
+    <span class="icons">
+    
+<a href="https://www.instagram.com/alinegd28?igsh=MTduOHV2cG1qNXNocg==">
                   <i class="fa-brands fa-instagram"></i>
                   </i>
                 </a>
@@ -28,7 +32,9 @@
                   <a href= "https://wa.link/cn062u">
                     <i class="fa-brands fa-whatsapp"></i>
                   </a>
-              </p>
+</span>
+</p>
+<!-- </div> -->
               </div>
               </div>
             </div>
@@ -37,6 +43,7 @@
         <br>
         <br>
         <section>
+
         <div data-aos="fade-up" data-aos-anchor-placement="top-bottom">
             <div class="row row-cols-2">
                  <br>

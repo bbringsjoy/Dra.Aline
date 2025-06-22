@@ -20,7 +20,7 @@
     <header>
       
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
+            <div class="container-fluid col-12">
               <a class="navbar-brand" href="home">
                 <img src="imagens/logocomtexto3.png" alt="Logo" class="w-100">
               </a>
@@ -69,10 +69,7 @@
 
     if(file_exists($pagina)) {
       include $pagina;
-    } else if($pagina ==  "array"){
-      include "pages/erro.php";
-
-    }else {
+    } else {
       include "pages/erro.php";
     }
       ?>

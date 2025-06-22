@@ -43,12 +43,12 @@ Isso é especialmente importante para aqueles que sofrem de traumas relacionados
                   <a href= "https://wa.link/cn062u">
                     <i class="fa-brands fa-whatsapp"></i>
                   </a>
+</p>
 </div>
 </div>
 </div> 
 </section>
 <main>
-
 <div data-aos="fade-up" data-aos-anchor-placement="top-bottom">
   <h1 class="text-center user-select-none">Consultório</h1>
     <div id="carouselExampleCaptions" class="carousel slide">
