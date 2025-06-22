@@ -1,8 +1,3 @@
-<?php
-$base = "https://{$_SERVER{'SERVER_NAME'}}{$_SERVER{'SCRIPT_NAME'}}"
-
-
-?>
 
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -65,19 +60,21 @@ $base = "https://{$_SERVER{'SERVER_NAME'}}{$_SERVER{'SCRIPT_NAME'}}"
     //inserir o array 
     include "array.php";
 
-    $pagina = $_GET["param"] ?? "home";
 
+
+    $pagina = $_GET["param"] ?? "home";
     // $pagina = página que quer abrir
+
+    if (isset($_GET["param"])) {
+      $param = explode("/", $_GET["param"]);
+      $pagina = $param[0] ?? "home";
+      $id = $param[1] ?? NULL;
+    }
 
     $pagina = "pages/{$pagina}.php";
 
-    //ver se a pagina existe
-
-    if(file_exists($pagina)) {
-      include $pagina;
-    } else {
-      include "pages/erro.php";
-    }
+    if (file_exists($pagina)) include $pagina;
+    else include "pages/erro.php";
       ?>
       <!--<div class="whats">
           <a href= "https://wa.link/cn062u">
