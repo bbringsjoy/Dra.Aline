@@ -1,3 +1,9 @@
+<?php
+$base = "https://{$_SERVER{'SERVER_NAME'}}{$_SERVER{'SCRIPT_NAME'}}"
+
+
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
