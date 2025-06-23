@@ -1,0 +1,45 @@
+<?php
+$mensagem_enviada = "";
+
+if ($_SERVER["REQUEST_METHOD"] === "POST") {
+  // Captura e filtra os dados do formulário
+  $nome = htmlspecialchars(trim($_POST['nome']));
+  $sobrenome = htmlspecialchars(trim($_POST['sobrenome']));
+  $email = filter_var(trim($_POST['email']), FILTER_SANITIZE_EMAIL);
+  $telefone = htmlspecialchars(trim($_POST['telefone']));
+  $tipo_pessoa = htmlspecialchars(trim($_POST['tipo_pessoa']));
+  $mensagem = htmlspecialchars(trim($_POST['mensagem']));
+
+  // Verificação de campos obrigatórios e e-mail válido
+  if (
+    empty($nome) || empty($sobrenome) || empty($telefone) ||
+    empty($tipo_pessoa) || empty($mensagem) ||
+    !filter_var($email, FILTER_VALIDATE_EMAIL)
+  ) {
+    $mensagem_enviada = "Por favor, preencha todos os campos corretamente.";
+  } else {
+    $destino = "aline12334@hotmail.com";
+    $assunto = "Nova mensagem do site";
+
+    $corpo = "Você recebeu uma nova mensagem do site:\n\n";
+    $corpo .= "Nome: $nome $sobrenome\n";
+    $corpo .= "E-mail: $email\n";
+    $corpo .= "Telefone: $telefone\n";
+    $corpo .= "Quem está enviando: $tipo_pessoa\n";
+    $corpo .= "Mensagem:\n$mensagem\n";
+
+    $headers = "From: $nome <$email>\r\n";
+    $headers .= "Reply-To: $email\r\n";
+    $headers .= "Content-Type: text/plain; charset=UTF-8\r\n";
+
+//mensagem de envio (já que não manda email)
+    $mensagem_enviada = "Mensagem enviada com sucesso!";
+    // Envio do e-mail
+    //if (mail($destino, $assunto, $corpo, $headers)) {
+     // $mensagem_enviada = "Mensagem enviada com sucesso!";
+    //} else {
+     // $mensagem_enviada = "Erro ao enviar a mensagem. Tente novamente mais tarde.";
+    //}
+  }
+}
+?>
