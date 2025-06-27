@@ -43,10 +43,6 @@
                     <a class="nav-link active" aria-current="page" href="localizacao">
                       <i class="fa-solid fa-location-dot"></i> Onde?</a>
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="agendar-horario">
-                      <i class="fa-solid fa-calendar-days"></i> Agendar horário</a>
-                  </li>
                 </div>
             </div>
           </div>
